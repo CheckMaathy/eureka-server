@@ -1,0 +1,24 @@
+spring:
+  main:
+    banner-mode: 'console'
+  application:
+    name: "@project.name@"
+    version: "@project.version@"
+    description: "@project.description@"
+
+info:
+  app:
+    groupId: "@project.groupId@"
+    artifactId: "@project.artifactId@"
+    version: "@project.version@"
+    java.version: "@java.version@"
+
+server:
+  port: 8761
+  servlet:
+    context-path: /erosproject
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
